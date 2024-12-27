@@ -1,0 +1,15 @@
+[project]
+name = "sagemaker-training-template"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "boto3-stubs[ecr]>=1.35.88",
+    "boto3>=1.35.84",
+    "docker-stubs>=0.1.0",
+    "docker>=7.1.0",
+    "pydantic-settings>=2.7.0",
+    "pydantic>=2.10.4",
+    "sagemaker>=2.237.1",
+]

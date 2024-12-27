@@ -1,0 +1,9 @@
+entry_point: train.py
+instance_count: 1
+instance_type: ml.m5.large
+base_job_name: test
+use_spot_instances: true
+max_run: 3600
+max_wait: 3600
+hyperparameters:
+    param: 42
